@@ -4,6 +4,49 @@ All notable changes to the "foam-vscode" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.25.11] - 2024-03-18
+
+Fixes and Improvements:
+
+- Actually fixed bug in graph computation (#1345)
+
+## [0.25.10] - 2024-03-18
+
+Fixes and Improvements:
+
+- Fixed bug in graph computation (#1345)
+
+## [0.25.9] - 2024-03-17
+
+Fixes and Improvements:
+
+- Improved note creation from placeholder (#1344)
+
+## [0.25.8] - 2024-02-21
+
+Fixes and Improvements:
+
+- Upgraded dataformat to improve support for daily note naming (#1326 - thanks @rcyeh)
+
+## [0.25.7] - 2024-01-16
+
+Fixes and Improvements:
+
+- Modifies url encoding to target only the filename and skip spaces (#1322 - thanks @MABruni)
+- Minor tweak to quick action menu with suggestions for section name
+
+## [0.25.6] - 2023-12-13
+
+Fixes and Improvements:
+
+- Fixed wikilink definition encoding (#1311 - thanks @MABruni)
+
+## [0.25.5] - 2023-11-30
+
+Fixes and Improvements:
+
+- Using note title in preview (#1309)
+
 ## [0.25.4] - 2023-09-19
 
 Fixes and Improvements:
@@ -78,8 +121,8 @@ Fixes and Improvements:
 
 Fixes and Improvements:
 
-- Support to show placeholders only for open file in panel (#1201, #988)
-- Show note block in panels on hover preview (#1201, #800)
+- Support to show placeholders only for open file in panel (#1201, [#988](https://github.com/CiceroIsBack/loam/issues/988))
+- Show note block in panels on hover preview (#1201, [#800](https://github.com/CiceroIsBack/loam/issues/800))
 - Show tag references within tag explorer (#1201)
 - Improved structure of view related commands (#1201)
 - Ignore `.foam` directory
@@ -88,13 +131,13 @@ Fixes and Improvements:
 
 Fixes and Improvements:
 
-- Allow the `#` char to trigger tag autocompletion (#1192, #1189 - thanks @jimgraham)
+- Allow the `#` char to trigger tag autocompletion (#1192, [#1189](https://github.com/CiceroIsBack/loam/issues/1189) - thanks @jimgraham)
 
 ## [0.22.0] - 2023-04-15
 
 Fixes and Improvements:
 
-- Added support for deep tag hierarchy in Tag Explorer panel (#1134, #1194)
+- Added support for deep tag hierarchy in Tag Explorer panel (#1134, [#1194](https://github.com/CiceroIsBack/loam/issues/1194))
 - Consolidated and improved Backlinks, Placeholders and Orphans panels (#1196)
 - Fixed note resolution when using template without defined path (#1197)
 
@@ -102,7 +145,7 @@ Fixes and Improvements:
 
 Fixes and Improvements:
 
-- Fixed issue with generated daily note template due to path escape (#1188, #1190)
+- Fixed issue with generated daily note template due to path escape (#1188, [#1190](https://github.com/CiceroIsBack/loam/issues/1190))
 
 ## [0.21.3] - 2023-04-12
 
@@ -114,8 +157,8 @@ Fixes and Improvements:
 
 Fixes and Improvements:
 
-- Fixed embed with relative paths (#1168, #1170)
-- Improved multi-root folder support for daily notes (#1126, #1175)
+- Fixed embed with relative paths (#1168, [#1170](https://github.com/CiceroIsBack/loam/issues/1170))
+- Improved multi-root folder support for daily notes (#1126, [#1175](https://github.com/CiceroIsBack/loam/issues/1175))
 - Improved use of tag completion (#1183 - thanks @jimgraham)
 - Fixed relative path use in note creation when using templates (#1170)
 
@@ -528,7 +571,7 @@ Fixes and Improvements:
 
 Fixes and Improvements:
 
-- Fixed #667, incorrect resolution of foam-core library
+- Fixed [#667](https://github.com/CiceroIsBack/loam/issues/667), incorrect resolution of foam-core library
 
 Internal:
 
@@ -539,7 +582,7 @@ Internal:
 
 Fixes and Improvements:
 
-- Fixed #667, incorrect resolution of foam-core library
+- Fixed [#667](https://github.com/CiceroIsBack/loam/issues/667), incorrect resolution of foam-core library
 
 ## [0.13.5] - 2021-06-05
 
@@ -555,7 +598,7 @@ Fixes and Improvements:
 
 - Added support for nested tags (#643 - thanks @pderaaij)
 - Improved the flow of creating note from template (#645 - thanks @movermeyer)
-- Fixed handling of title property in YAML (#647 - thanks @pderaaij and #546)
+- Fixed handling of title property in YAML (#647 - thanks @pderaaij and [#546](https://github.com/CiceroIsBack/loam/issues/546))
 
 Internal:
 
@@ -630,7 +673,7 @@ Features:
 
 Fixes and Improvements:
 
-- Dataviz: fixed graph node highlighting (#516, #517)
+- Dataviz: fixed graph node highlighting (#516, [#517](https://github.com/CiceroIsBack/loam/issues/517))
 
 ## [0.10.3] - 2021-03-01
 
@@ -692,7 +735,7 @@ Fixes and Improvements:
 
 Fixes and Improvements:
 
-- Fixed word-based-suggestions (#415 #417 - thanks @bpugh!)
+- Fixed word-based-suggestions (#415 [#417](https://github.com/CiceroIsBack/loam/issues/417) - thanks @bpugh!)
 - Date snippets use standard wikilink syntax (#416 - thanks @MCluck90!)
 
 ## [0.7.6] - 2020-12-20
@@ -738,7 +781,7 @@ Features:
 Fixes and Improvements:
 
 - Foam model: Fixed bug in tags parsing (#382)
-- Dataviz: Graph canvas now resizes with window (#383, #375)
+- Dataviz: Graph canvas now resizes with window (#383, [#375](https://github.com/CiceroIsBack/loam/issues/375))
 - Dataviz: Limit label length for placeholder nodes (#381)
 
 ## [0.7.0] - 2020-11-25
