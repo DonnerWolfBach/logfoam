@@ -1,4 +1,6 @@
-# Loam
+# ~~Loam~~ Logfoam
+
+_This is a fork of the lates Loam version I could find. Might or might not actively develop this. If you want and want or wanna help, reach out via a PR or how it works on github_
 
 _This is an early stage project under rapid development._
 
@@ -14,9 +16,13 @@ To start developing, clone the repo, then run `yarn`. In VS Code, hit `F5` to st
 
 To enable automatic outlining and indenting, use the `Markdown All in One` extension.
 
-Why the name "Loam"? Loam is a combination of "Logseq" + "Foam". Also, loam in the real world is rich soul that is good for growing plants. My hope is that Loam will be a good foundation for your knowledge garden, and help you grow your thoughts.
+Why the name "Logfoam"? Logfoam is a combination of "Logseq" + "Foam". Loam was not so easily searchable and this name evokes an image of a log of wood with foam of it which might become a logo. 
 
 ### Features to Implement
+
+_The vscode plugin showed the first two ticked off: https://marketplace.visualstudio.com/items?itemName=ciceroisback.loam_
+- [ ] check whether those are actually done here
+- [ ] try to extract the code changes from the vscode package
 
 - [ ] support hierarchy in links (namespaces; has to change "/" to "\_\_")
 - [ ] support for tags as links (incl in backlinks section)
