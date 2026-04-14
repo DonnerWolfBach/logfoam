@@ -2,6 +2,8 @@
 
 _This is a fork of the lates Loam version I could find. Might or might not actively develop this. If you want and want or wanna help, reach out via a PR or how it works on github_
 
+_The original author kindly reuploaded the source code, which can be found here: https://github.com/DonnerWolfBach/loam Will likely use this as a base in the future_
+
 _This is an early stage project under rapid development._
 
 Loam is a fork of the excellent [Foam](https://github.com/foambubble/foam) VS Code extension. The goal of Loam is to enable better compatibilty with Logseq. This way one can easily open their Logseq folder in VS Code and get a comparable note-taking experience.
